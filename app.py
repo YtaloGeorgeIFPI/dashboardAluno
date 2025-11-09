@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request  # ✅ Incluído 'request'
+from flask import Flask, render_template, request, redirect, flash
 from dao.aluno_dao import AlunoDAO
 from dao.professor_dao import ProfessorDAO
 from dao.curso_dao import CursoDAO
